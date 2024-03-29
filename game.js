@@ -1,11 +1,12 @@
 var config = {
     width: 800,
     height: 600,
-    scene: [preload, scene1],
+    scene: [preload],
     physics: {
         default: 'arcade',
         arcade: {
-            debug: true
+            debug: false,
+            fps: 240
         }
     }
 
